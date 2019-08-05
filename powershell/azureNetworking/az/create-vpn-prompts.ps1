@@ -1,3 +1,4 @@
+##
 Function Connect-to-ARM
 {
     Login-AzAccount
