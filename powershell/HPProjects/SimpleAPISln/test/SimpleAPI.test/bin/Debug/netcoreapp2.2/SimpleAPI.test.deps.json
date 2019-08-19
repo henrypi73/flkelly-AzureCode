@@ -22,17 +22,26 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "SimpleAPI.test/1.0.0": {
+      "SimpleAPI.Test/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "simpleAPI": "1.0.0"
         },
         "runtime": {
-          "SimpleAPI.test.dll": {}
+          "SimpleAPI.Test.dll": {}
         },
         "compile": {
-          "SimpleAPI.test.dll": {}
+          "SimpleAPI.Test.dll": {}
+        }
+      },
+      "simpleAPI/1.0.0": {
+        "runtime": {
+          "simpleAPI.dll": {}
+        },
+        "compile": {
+          "simpleAPI.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3232,7 +3241,12 @@
     }
   },
   "libraries": {
-    "SimpleAPI.test/1.0.0": {
+    "SimpleAPI.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "simpleAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

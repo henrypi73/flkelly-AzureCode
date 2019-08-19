@@ -12,3 +12,6 @@ C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAP
 C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\obj\Debug\netcoreapp2.2\SimpleAPI.test.RazorTargetAssemblyInfo.cache
 C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\obj\Debug\netcoreapp2.2\SimpleAPI.test.dll
 C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\obj\Debug\netcoreapp2.2\SimpleAPI.test.pdb
+C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\bin\Debug\netcoreapp2.2\simpleAPI.dll
+C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\bin\Debug\netcoreapp2.2\simpleAPI.pdb
+C:\githubrepo\flkelly-AzureCode\powershell\HPProjects\SimpleAPISln\test\SimpleAPI.test\obj\Debug\netcoreapp2.2\SimpleAPI.Test.csproj.CopyComplete

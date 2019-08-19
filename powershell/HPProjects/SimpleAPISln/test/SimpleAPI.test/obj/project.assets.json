@@ -4438,6 +4438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "simpleAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/simpleAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/simpleAPI.dll": {}
+        }
       }
     }
   },
@@ -12063,13 +12073,19 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "simpleAPI/1.0.0": {
+      "type": "project",
+      "path": "../../src/SimpleAPI/simpleAPI.csproj",
+      "msbuildProject": "../../src/SimpleAPI/simpleAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "simpleAPI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12079,9 +12095,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\test\\SimpleAPI.test\\SimpleAPI.test.csproj",
-      "projectName": "SimpleAPI.test",
-      "projectPath": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\test\\SimpleAPI.test\\SimpleAPI.test.csproj",
+      "projectUniqueName": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\test\\SimpleAPI.test\\SimpleAPI.Test.csproj",
+      "projectName": "SimpleAPI.Test",
+      "projectPath": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\test\\SimpleAPI.test\\SimpleAPI.Test.csproj",
       "packagesPath": "C:\\Users\\v-hepiet\\.nuget\\packages\\",
       "outputPath": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\test\\SimpleAPI.test\\obj\\",
       "projectStyle": "PackageReference",
@@ -12099,7 +12115,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\src\\SimpleAPI\\simpleAPI.csproj": {
+              "projectPath": "C:\\githubrepo\\flkelly-AzureCode\\powershell\\HPProjects\\SimpleAPISln\\src\\SimpleAPI\\simpleAPI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
